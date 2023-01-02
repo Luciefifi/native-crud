@@ -87,19 +87,7 @@ export default function Update({ navigation, route }) {
                   color: "black",
                 }}
               />
-              <TextInput
-                onChangeText={handleChange("address")}
-                onBlur={handleBlur("address")}
-                value={values.address}
-                placeholder="Address"
-                style={{
-                  borderBottomWidth: 0.7,
-                  width: 250,
-                  marginBottom: 10,
-                  fontSize: 15,
-                  color: "black",
-                }}
-              />
+            
               <TextInput
                 onChangeText={handleChange("phone")}
                 onBlur={handleBlur("phone")}
